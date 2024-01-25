@@ -41,9 +41,24 @@ div#quote-box #author {
 }
 div#quote-box #buttons-box {
   margin-top: 5%;
+  height: 36px;
   align-self: stretch;
   display: flex;
   justify-content: space-between;
+}
+div#quote-box #buttons-box #links-box a {
+  display: inline-flex;
+  height: 100%;
+  width: 36px;
+  border-radius: 3px;
+  background-color: #00008B;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+div#quote-box #buttons-box #links-box a i {
+  color: white;
+  vertical-align: center;
 }
 div#quote-box #buttons-box #new-quote {
   color: white;

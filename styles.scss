@@ -48,9 +48,26 @@ div#quote-box {
 
   #buttons-box {
     margin-top: 5%;
+    height: 36px;
     align-self: stretch;
     display: flex;
     justify-content: space-between;
+
+    #links-box a {
+      display: inline-flex;
+      height: 100%;
+      width: 36px;
+      border-radius: 3px;
+      background-color: $random-color;
+      justify-content: center;
+      align-items: center;
+      margin-right: 6px;
+
+      i {
+        color: white;
+        vertical-align: center;
+      }
+    }
 
     #new-quote {
       color: white;
