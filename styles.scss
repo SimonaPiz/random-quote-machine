@@ -72,6 +72,9 @@ div#quote-box {
     #new-quote {
       color: white;
       background-color: $random-color;
+      border: none;
+      border-radius: 3px;
+      padding: 0 12px;
     }
   }
 }

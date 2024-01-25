@@ -63,6 +63,9 @@ div#quote-box #buttons-box #links-box a i {
 div#quote-box #buttons-box #new-quote {
   color: white;
   background-color: #00008B;
+  border: none;
+  border-radius: 3px;
+  padding: 0 12px;
 }
 
 /*# sourceMappingURL=styles.css.map */
