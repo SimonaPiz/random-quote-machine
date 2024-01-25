@@ -68,4 +68,14 @@ div#quote-box #buttons-box #new-quote {
   padding: 0 12px;
 }
 
+footer {
+  margin-top: 36px;
+  font-size: 12px;
+  color: #c2c2c2;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
