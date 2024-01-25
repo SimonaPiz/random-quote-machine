@@ -18,7 +18,7 @@ body {
 }
 
 div#quote-box {
-  width: 50%;
+  width: 60%;
   padding: 56px;
   background-color: white;
   color: #00008B;
@@ -26,10 +26,13 @@ div#quote-box {
   display: flex;
   flex-direction: column;
 }
-div#quote-box #text {
+div#quote-box #text-box {
   font-size: 28px;
   align-self: center;
   text-align: center;
+}
+div#quote-box #text-box span#quote-icon {
+  font-size: 1.1em;
 }
 div#quote-box #author {
   align-self: flex-end;
