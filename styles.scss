@@ -76,6 +76,10 @@ div#quote-box {
       border-radius: 3px;
       padding: 0 12px;
     }
+
+    a:hover, button:hover {
+      opacity: 0.7;
+    }
   }
 
 }
@@ -88,5 +92,9 @@ footer {
   a {
     text-decoration: none;
     color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }

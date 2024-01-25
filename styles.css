@@ -67,6 +67,9 @@ div#quote-box #buttons-box #new-quote {
   border-radius: 3px;
   padding: 0 12px;
 }
+div#quote-box #buttons-box a:hover, div#quote-box #buttons-box button:hover {
+  opacity: 0.7;
+}
 
 footer {
   margin-top: 36px;
@@ -76,6 +79,9 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
