@@ -1,0 +1,56 @@
+$random-color : #00008B;
+$font-primary: 'Philosopher', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  color: white;
+  background-color: $random-color;
+  line-height: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div#quote-box {
+  width: 50%;
+  padding: 56px;
+  background-color: white;
+  color: $random-color;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  #text {
+    font-size: 28px;
+    align-self: center;
+    text-align: center;
+  }
+
+  #author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  #buttons-box {
+    margin-top: 5%;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+
+    #new-quote {
+      color: white;
+      background-color: $random-color;
+    }
+  }
+}

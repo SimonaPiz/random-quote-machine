@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Philosopher", sans-serif;
+  color: white;
+  background-color: #00008B;
+  line-height: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div#quote-box {
+  width: 50%;
+  padding: 56px;
+  background-color: white;
+  color: #00008B;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+div#quote-box #text {
+  font-size: 28px;
+  align-self: center;
+  text-align: center;
+}
+div#quote-box #author {
+  align-self: flex-end;
+  font-size: 18px;
+  font-style: italic;
+}
+div#quote-box #buttons-box {
+  margin-top: 5%;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+}
+div#quote-box #buttons-box #new-quote {
+  color: white;
+  background-color: #00008B;
+}
+
+/*# sourceMappingURL=styles.css.map */
