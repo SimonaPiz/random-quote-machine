@@ -1,0 +1,104 @@
+$random-color : none;
+$font-primary: 'Philosopher', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+  }
+}
+.bg-color {
+  background-color: $random-color;
+}
+
+body {
+  font-family: $font-primary;
+  color: white;
+  line-height: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div#quote-box {
+  width: 60%;
+  padding: 56px;
+  background-color: white;
+  color: $random-color;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  #text-box {
+    font-size: 28px;
+    align-self: center;
+    text-align: center;
+
+    span#quote-icon {
+      font-size: 1.1em;
+    }
+  }
+
+  #author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 16px;
+  }
+
+  #buttons-box {
+    margin-top: 5%;
+    height: 36px;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+
+    #links-box a {
+      display: inline-flex;
+      height: 100%;
+      width: 36px;
+      border-radius: 3px;
+      justify-content: center;
+      align-items: center;
+      margin-right: 6px;
+
+      i {
+        color: white;
+        vertical-align: center;
+      }
+    }
+
+    #new-quote {
+      color: white;
+      border: none;
+      border-radius: 3px;
+      padding: 0 12px;
+    }
+
+    a:hover, button:hover {
+      opacity: 0.7;
+    }
+  }
+
+}
+
+footer {
+  margin-top: 36px;
+  font-size: 12px;
+  color: #c2c2c2;
+  
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}

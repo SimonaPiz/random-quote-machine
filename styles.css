@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+}
+
+.bg-color {
+  background-color: none;
+}
+
+body {
+  font-family: "Philosopher", sans-serif;
+  color: white;
+  line-height: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div#quote-box {
+  width: 60%;
+  padding: 56px;
+  background-color: white;
+  color: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+div#quote-box #text-box {
+  font-size: 28px;
+  align-self: center;
+  text-align: center;
+}
+div#quote-box #text-box span#quote-icon {
+  font-size: 1.1em;
+}
+div#quote-box #author {
+  align-self: flex-end;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 16px;
+}
+div#quote-box #buttons-box {
+  margin-top: 5%;
+  height: 36px;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+}
+div#quote-box #buttons-box #links-box a {
+  display: inline-flex;
+  height: 100%;
+  width: 36px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+div#quote-box #buttons-box #links-box a i {
+  color: white;
+  vertical-align: center;
+}
+div#quote-box #buttons-box #new-quote {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 0 12px;
+}
+div#quote-box #buttons-box a:hover, div#quote-box #buttons-box button:hover {
+  opacity: 0.7;
+}
+
+footer {
+  margin-top: 36px;
+  font-size: 12px;
+  color: #c2c2c2;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

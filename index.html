@@ -18,26 +18,41 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c60b8d083.js" crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
   </head>
-  <body>
+  <body class="bg-color">
     
     <div id='quote-box'>
-      <p id="text">text</p>
-      <p id="author">author</p>
+      <p id="text-box" class="color">
+        <span id="quote-icon" class="fa-solid fa-quote-left"></span>
+        <span id="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </span>
+      </p>
+      <p id="author" class="color">- Author</p>
 
-      <div>
-        <div id="links-container">
-          <a id="tweet-quote" href="#">tw</a>
-          <a id="tumbr-quote" href="#">tu</a>
+      <div id="buttons-box">
+        <div id="links-box">
+          <a id="tweet-quote" class="bg-color" href="" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a id="tumbr-quote" class="bg-color" target="_blank" href="">
+            <i class="fa-brands fa-tumblr"></i>
+          </a>
         </div>
-        <div id="new-quote">
-          <button>New Quote</button>
-        </div>
+        <button id="new-quote" class="bg-color">New quote</button>
       </div>
     </div>
 
-    <footer>by <a href="">SimonaPiz</a></footer>
+    <footer>dev by <a href="">SimonaPiz</a> - quotes from <a href="https://api-ninjas.com/api/quotes">API Ninjas</a></footer>
 
   </body>
+<script src="index.js" defer></script>
+
 </html>
