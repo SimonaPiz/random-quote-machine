@@ -3,7 +3,7 @@ const category = 'happiness';
 const apiKey = 'cuAKWWU0SfGHz/JjaQn/wg==1xZziCcQHnDAFXGW'; 
 
 let quote ='Happiness is the real sense of fulfillment that comes from hard work.';
-let author = 'Joseph Barbara';
+let author = '- Joseph Barbara';
 
 const getQuote = () => {
   $.ajax({
@@ -14,7 +14,7 @@ const getQuote = () => {
       success: function(result) {
           //console.log(result[0],result[0].author);
           quote = result[0].quote;
-          author = result[0].author;
+          author = '- ' + result[0].author;
           console.log(quote,author);
       },
       error: function ajaxError(jqXHR) {

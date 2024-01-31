@@ -38,6 +38,7 @@ div#quote-box #author {
   align-self: flex-end;
   font-size: 18px;
   font-style: italic;
+  margin-top: 16px;
 }
 div#quote-box #buttons-box {
   margin-top: 5%;
