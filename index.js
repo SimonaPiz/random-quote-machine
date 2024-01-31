@@ -26,6 +26,21 @@ const getQuote = () => {
 const setNewQuote = (newQuote, newAuthor) => {
   $("#text").text(newQuote);
   $("#author").text(newAuthor);
+
+  $('#tweet-quote').attr(
+    'href',
+    'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+      encodeURIComponent('"' + newQuote + '" ' + newAuthor)
+  );
+
+  $('#tumbr-quote').attr(
+    'href',
+    'https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=' +
+      encodeURIComponent(newAuthor) +
+      '&content=' +
+      encodeURIComponent(newQuote) +
+      '&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button'
+  );
 }
 
 $(document).ready(function(){
