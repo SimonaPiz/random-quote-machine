@@ -58,7 +58,7 @@ const setNewQuote = (newQuote, newAuthor) => {
 
   //change colors
   const colorIdx = Math.floor(Math.random() * colors.length);
-  console.log(colorIdx, colors[colorIdx])
+  //console.log(colorIdx, colors[colorIdx])
   $('.bg-color').css("backgroundColor", colors[colorIdx]);
   $('.color').css("color", colors[colorIdx]);
 }
