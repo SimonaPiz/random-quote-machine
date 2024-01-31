@@ -1,4 +1,4 @@
-$random-color : #00008B;
+$random-color : none;
 $font-primary: 'Philosopher', sans-serif;
 
 * {
@@ -6,12 +6,18 @@ $font-primary: 'Philosopher', sans-serif;
   padding: 0;
   vertical-align: baseline;
   box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+  }
+}
+.bg-color {
+  background-color: $random-color;
 }
 
 body {
   font-family: $font-primary;
   color: white;
-  background-color: $random-color;
   line-height: 1;
   height: 100vh;
   display: flex;
@@ -59,7 +65,6 @@ div#quote-box {
       height: 100%;
       width: 36px;
       border-radius: 3px;
-      background-color: $random-color;
       justify-content: center;
       align-items: center;
       margin-right: 6px;
@@ -72,7 +77,6 @@ div#quote-box {
 
     #new-quote {
       color: white;
-      background-color: $random-color;
       border: none;
       border-radius: 3px;
       padding: 0 12px;
@@ -91,7 +95,6 @@ footer {
   color: #c2c2c2;
   
   a {
-    text-decoration: none;
     color: white;
   }
 
